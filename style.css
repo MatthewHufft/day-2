@@ -8,6 +8,7 @@ body {
   justify-content: center;
   padding: 1em;
   width: 100%;
+  color: white;
 }
 
 .footer {
@@ -31,7 +32,7 @@ h4 {
 }
 
 .dark-blue {
-  background-color: rgb(23, 98, 196);
+  background-color: rgb(6, 73, 161);
 }
 
 
