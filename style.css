@@ -9,18 +9,19 @@ body {
   padding: 1em;
   width: 100%;
 }
-h1 {
-  font-size: 4em;
-}
 
 .footer {
   height:5em;
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   
 }
+h1 {
+  font-size: 4em;
+}
+
 
 p{
   margin: 1px;  
@@ -44,6 +45,7 @@ main {
   margin: 1em 1em 1em 10em;
   padding: 0em 3em;
   font-size: 1.3em;
+  border-top: 20px solid rgb(151, 189, 238);
 }
 
 .text-center {
