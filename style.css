@@ -1,7 +1,22 @@
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 .header {
   display: flex;
   justify-content: center;
   font-size: 1.5em;
+  width: 100%;
+}
+
+.footer {
+  height:5em;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
 }
 
 p{
@@ -15,9 +30,6 @@ h4 {
   background-color: rgb(23, 98, 196);
 }
 
-.footer {
-  height:5em;
-}
 
 main {
   display: flex;
@@ -27,7 +39,8 @@ main {
   display:flex;
   flex-direction: column;
   margin: 1em 1em 1em 10em;
-  padding: 3em;
+  padding: 0em 3em;
+  font-size: 1.3em;
 }
 
 .text-center {
@@ -36,4 +49,8 @@ main {
 
 .aside-container {
   margin-top: 3em;
+}
+
+.spacer {
+  width: 20vw;
 }
