@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5em;
+}
+
+p{
+  margin: 1px;  
+}
+h4 {
+  margin: 1px;
+}
+
+.dark-blue {
+  background-color: rgb(23, 98, 196);
+}
+
+.footer {
+  height:5em;
+}
+
+main {
+  display: flex;
+}
+
+.article-container {
+  display:flex;
+  flex-direction: column;
+  margin: 1em 1em 1em 10em;
+  padding: 3em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.aside-container {
+  margin-top: 3em;
+}
