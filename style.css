@@ -37,15 +37,17 @@ h4 {
 
 main {
   display: flex;
+  justify-content: flex-end;
 }
 
 .article-container {
   display:flex;
   flex-direction: column;
-  margin: 1em 1em 1em 10em;
+  margin: 2em 8em 1em 1em;
   padding: 0em 3em;
   font-size: 1.3em;
   border-top: 20px solid rgb(151, 189, 238);
+  width: 40vw;
 }
 
 .text-center {
@@ -55,8 +57,9 @@ main {
 .aside-container {
   margin-top: 3em;
   margin-right: 3em;
+  display:
 }
 
 .spacer {
-  width: 20vw;
+  width: 15vw;
 }
